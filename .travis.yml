@@ -1,0 +1,6 @@
+
+language: minimal
+
+script:
+  - test -f index.html
+  - grep -q "Student Event Registration" index.html
